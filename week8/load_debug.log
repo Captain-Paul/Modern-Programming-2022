@@ -1,0 +1,59 @@
+Source path:... e:\BUAA\大三上\程设\week8\homework7-decorator.py
+Starting var:.. self = <__main__.BigDataStructure object at 0x000001CAF4847940>
+Starting var:.. file_path = 'E:\\BUAA\\大三上\\程设\\week3\\weibo.txt'
+20:15:15.455424 call        82     def load(self, file_path):
+20:15:15.465431 line        83         self._df = pd.read_csv(file_path, sep='\t', encoding='utf-8').drop_duplicates()
+20:15:26.269318 line        84         self._list = list(self._df['text'])
+20:15:26.294311 return      84         self._list = list(self._df['text'])
+Return value:.. None
+Elapsed time: 00:00:10.840820
+Source path:... e:\BUAA\大三上\程设\week8\homework7-decorator.py
+Starting var:.. self = <__main__.BigDataStructure object at 0x000001A920977820>
+Starting var:.. file_path = 'E:\\BUAA\\大三上\\程设\\week3\\weibo.txt'
+20:23:27.013940 call        82     def load(self, file_path):
+20:23:27.034005 line        83         self._df = pd.read_csv(file_path, sep='\t', encoding='utf-8').drop_duplicates()
+20:23:37.246943 line        84         self._list = list(self._df['text'])
+20:23:37.278196 return      84         self._list = list(self._df['text'])
+Return value:.. None
+Elapsed time: 00:00:10.264256
+Source path:... e:\BUAA\大三上\程设\week8\homework7-decorator.py
+Starting var:.. self = <__main__.BigDataStructure object at 0x0000027A42C078B0>
+Starting var:.. file_path = 'E:\\BUAA\\大三上\\程设\\week3\\weibo.txt'
+20:25:33.537220 call        84     def load(self, file_path):
+20:25:33.540114 line        85         self._df = pd.read_csv(file_path, sep='\t', encoding='utf-8').drop_duplicates()
+20:25:44.171325 line        86         self._list = list(self._df['text'])
+20:25:44.193329 return      86         self._list = list(self._df['text'])
+Return value:.. None
+Elapsed time: 00:00:10.657421
+Source path:... e:\BUAA\大三上\程设\week8\homework7-decorator.py
+Starting var:.. self = <__main__.BigDataStructure object at 0x0000020DF54178B0>
+Starting var:.. file_path = 'E:\\BUAA\\大三上\\程设\\week3\\weibo.txt'
+21:04:20.954999 call        84     def load(self, file_path):
+21:04:20.958559 line        85         self._df = pd.read_csv(file_path, sep='\t', encoding='utf-8').drop_duplicates()
+Source path:... e:\BUAA\大三上\程设\week8\homework7-decorator.py
+Starting var:.. self = <__main__.BigDataStructure object at 0x0000019AE63B78B0>
+Starting var:.. file_path = 'E:\\BUAA\\大三上\\程设\\week3\\weibo.txt'
+21:05:15.795431 call        84     def load(self, file_path):
+21:05:15.799431 line        85         self._df = pd.read_csv(file_path, sep='\t', encoding='utf-8').drop_duplicates()
+21:05:26.492611 line        86         self._list = list(self._df['text'])
+21:05:26.517555 return      86         self._list = list(self._df['text'])
+Return value:.. None
+Elapsed time: 00:00:10.723120
+Source path:... e:\BUAA\大三上\程设\week8\homework7-decorator.py
+Starting var:.. self = <__main__.BigDataStructure object at 0x000001F589BB78B0>
+Starting var:.. file_path = 'E:\\BUAA\\大三上\\程设\\week3\\weibo.txt'
+21:06:28.560035 call        84     def load(self, file_path):
+21:06:28.563433 line        85         self._df = pd.read_csv(file_path, sep='\t', encoding='utf-8').drop_duplicates()
+21:06:39.202498 line        86         self._list = list(self._df['text'])
+21:06:39.224497 return      86         self._list = list(self._df['text'])
+Return value:.. None
+Elapsed time: 00:00:10.666469
+Source path:... e:\BUAA\大三上\程设\week8\homework7-decorator.py
+Starting var:.. self = <__main__.BigDataStructure object at 0x00000231914679A0>
+Starting var:.. file_path = 'E:\\BUAA\\大三上\\程设\\week3\\weibo.txt'
+21:18:22.113469 call        84     def load(self, file_path):
+21:18:22.115457 line        85         self._df = pd.read_csv(file_path, sep='\t', encoding='utf-8').drop_duplicates()
+21:18:32.878165 line        86         self._list = list(self._df['text'])
+21:18:32.904169 return      86         self._list = list(self._df['text'])
+Return value:.. None
+Elapsed time: 00:00:10.791701

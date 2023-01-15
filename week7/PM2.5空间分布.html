@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/beijing.js"></script>
+
+</head>
+<body>
+    <div id="0c9ba5d6c1e04b4688e96124b0b59764" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_0c9ba5d6c1e04b4688e96124b0b59764 = echarts.init(
+            document.getElementById('0c9ba5d6c1e04b4688e96124b0b59764'), 'white', {renderer: 'canvas'});
+        var option_0c9ba5d6c1e04b4688e96124b0b59764 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "effectScatter",
+            "name": "Beijing",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 5,
+            "data": [
+                {
+                    "name": "Aotizhongxin",
+                    "value": [
+                        116.4,
+                        39.99,
+                        59.3468286099865
+                    ]
+                },
+                {
+                    "name": "Changping",
+                    "value": [
+                        116.23,
+                        40.22,
+                        53.17174515235457
+                    ]
+                },
+                {
+                    "name": "Dingling",
+                    "value": [
+                        116.23,
+                        40.29,
+                        46.08005427408413
+                    ]
+                },
+                {
+                    "name": "Dongsi",
+                    "value": [
+                        116.42,
+                        39.92,
+                        59.97899159663866
+                    ]
+                },
+                {
+                    "name": "Guanyuan",
+                    "value": [
+                        116.36,
+                        39.94,
+                        55.483379501385045
+                    ]
+                },
+                {
+                    "name": "Gucheng",
+                    "value": [
+                        116.18,
+                        39.91,
+                        57.785225718194255
+                    ]
+                },
+                {
+                    "name": "Huairou",
+                    "value": [
+                        116.58,
+                        40.33,
+                        52.295128552097424
+                    ]
+                },
+                {
+                    "name": "Nongzhanguan",
+                    "value": [
+                        116.47,
+                        39.94,
+                        59.44583333333333
+                    ]
+                },
+                {
+                    "name": "Shunyi",
+                    "value": [
+                        116.67,
+                        40.16,
+                        58.108783783783785
+                    ]
+                },
+                {
+                    "name": "Tiantan",
+                    "value": [
+                        116.41,
+                        39.88,
+                        53.66938775510204
+                    ]
+                },
+                {
+                    "name": "Wanliu",
+                    "value": [
+                        116.3,
+                        39.97,
+                        58.67206477732793
+                    ]
+                },
+                {
+                    "name": "Wanshouxigong",
+                    "value": [
+                        116.37,
+                        39.88,
+                        51.40830945558739
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Beijing"
+            ],
+            "selected": {
+                "Beijing": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "PM2.5\u7a7a\u95f4\u5206\u5e03",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "min": 0,
+                "max": 35,
+                "label": "\u4f18",
+                "color": "#3700A4"
+            },
+            {
+                "min": 36,
+                "max": 75,
+                "label": "\u826f",
+                "color": "#81AE9F"
+            },
+            {
+                "min": 76,
+                "max": 115,
+                "label": "\u8f7b\u5ea6\u6c61\u67d3",
+                "color": "#E2C568"
+            },
+            {
+                "min": 116,
+                "max": 150,
+                "label": "\u4e2d\u5ea6\u6c61\u67d3",
+                "color": "#FCF84D"
+            },
+            {
+                "min": 151,
+                "max": 250,
+                "label": "\u91cd\u5ea6\u6c61\u67d3",
+                "color": "#DD0200"
+            }
+        ]
+    },
+    "geo": {
+        "map": "\u5317\u4eac",
+        "roam": true,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "emphasis": {}
+    }
+};
+        chart_0c9ba5d6c1e04b4688e96124b0b59764.setOption(option_0c9ba5d6c1e04b4688e96124b0b59764);
+    </script>
+</body>
+</html>
